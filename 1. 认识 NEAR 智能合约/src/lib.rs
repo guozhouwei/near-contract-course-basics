@@ -1,5 +1,6 @@
 use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize}; // self 必须导入
-use near_sdk::{env, near_bindgen, require, AccountId, PanicOnDefault};
+//use borsh::{self, BorshDeserialize, BorshSerialize};
+//use near_sdk::{env, near_bindgen, require, AccountId, PanicOnDefault};
 use std::collections::HashMap;
 
 #[near_bindgen] // 定义合约根结构, 一个项目中只能有一个根结构
